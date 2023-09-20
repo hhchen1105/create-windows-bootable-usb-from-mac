@@ -21,7 +21,7 @@
    
 1. Because the file ``install.wim`` is too large to copy over to a FAT-32 formatted USB drive, we need to copy it over separately.
 
-  ```rsync -vha --exclude=sources/install.wim /Volumes/WIN10_EN-US_DV9/* /Volumes/WIN10```
+   ```rsync -vha --exclude=sources/install.wim /Volumes/WIN10_EN-US_DV9/* /Volumes/WIN10```
 
 1. Split ``install.wim`` into 2 files and copy them to USB.
 
