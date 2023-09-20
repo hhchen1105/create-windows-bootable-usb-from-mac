@@ -14,7 +14,7 @@
 
    ```diskutil eraseDisk MS-DOS "WIN10" GPT /dev/disk2```
 
-1. Download the windows ISO file (e.g., ~/Downloads/win10-Eng-x86.iso)
+1. Download the windows ISO file (e.g., ``~/Downloads/win10-Eng-x86.iso``)
 1. Mount the windows ISO
    
    ```hdiutil mount ~/Downloads/win10-Eng-x86.iso```
